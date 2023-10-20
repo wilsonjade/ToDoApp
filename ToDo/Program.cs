@@ -10,10 +10,8 @@ internal class Program
         // Add services to the container.
         builder.Services.AddControllersWithViews();
 
-        //Add EF CoreDI
+        //Add EF Core DI
         builder.Services.AddDbContext<ToDoContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ToDoContext")));
-
-
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
