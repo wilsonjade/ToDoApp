@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.Eventing.Reader;
 using System.Globalization;
 
-namespace ToDo.Models
+namespace ToDoApp.Models
 {
     public class ToDo
     {

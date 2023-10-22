@@ -2897,9 +2897,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jadex\\source\\repos\\ToDoApp\\ToDo\\ToDo.csproj",
-      "projectName": "ToDo",
-      "projectPath": "C:\\Users\\jadex\\source\\repos\\ToDoApp\\ToDo\\ToDo.csproj",
+      "projectUniqueName": "C:\\Users\\jadex\\source\\repos\\ToDoApp\\ToDo\\ToDoApp.csproj",
+      "projectName": "ToDoApp",
+      "projectPath": "C:\\Users\\jadex\\source\\repos\\ToDoApp\\ToDo\\ToDoApp.csproj",
       "packagesPath": "C:\\Users\\jadex\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jadex\\source\\repos\\ToDoApp\\ToDo\\obj\\",
       "projectStyle": "PackageReference",

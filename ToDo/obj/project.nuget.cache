@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mXLpSl5KIGgN9I1WV9w77waJX7egVmfb/FiuFWOmDiUN5D0zpNFcna6+8YreMo9mconKR9j1W4NoES0XREsr3g==",
+  "dgSpecHash": "8J8bDM6RotqgnQ1vmFdMC0uIhPMzdddeaJ8EEw9HIJRWCe7k+OqkN43ma+Txqhoiri0HJcoPj0lDyVwcnCsL4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jadex\\source\\repos\\ToDoApp\\ToDo\\ToDo.csproj",
+  "projectFilePath": "C:\\Users\\jadex\\source\\repos\\ToDoApp\\ToDo\\ToDoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jadex\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\jadex\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

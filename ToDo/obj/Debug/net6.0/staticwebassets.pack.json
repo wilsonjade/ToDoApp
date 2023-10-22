@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\jadex\\source\\repos\\ToDoApp\\ToDo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ToDo.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ToDo.bundle.scp.css"
+      "Id": "C:\\Users\\jadex\\source\\repos\\ToDoApp\\ToDo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ToDoApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ToDoApp.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\jadex\\source\\repos\\ToDoApp\\ToDo\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ToDo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ToDoApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ToDo.props",
-      "PackagePath": "build\\ToDo.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ToDoApp.props",
+      "PackagePath": "build\\ToDoApp.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ToDo.props",
-      "PackagePath": "buildMultiTargeting\\ToDo.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ToDoApp.props",
+      "PackagePath": "buildMultiTargeting\\ToDoApp.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ToDo.props",
-      "PackagePath": "buildTransitive\\ToDo.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ToDoApp.props",
+      "PackagePath": "buildTransitive\\ToDoApp.props"
     }
   ],
   "ElementsToRemove": []

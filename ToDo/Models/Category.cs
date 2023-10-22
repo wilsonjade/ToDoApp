@@ -1,4 +1,4 @@
-﻿namespace ToDo.Models
+﻿namespace ToDoApp.Models
 {
     public class Category
     {
@@ -6,4 +6,6 @@
 
         public string Name { get; set; } = string.Empty;
     }
+
 }
+ 
