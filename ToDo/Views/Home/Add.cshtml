@@ -1,4 +1,4 @@
-﻿@model ToDo 
+﻿@model ToDo
 
 <h2>New Task</h2>
 
@@ -12,21 +12,22 @@
 
     <div class="mb-3">
         <label asp-for="CategoryId" class="form-label">Category</label>
-        <select asp-for="CategoryId" class="form-select" asp-items="@(new SelectList(ViewBag.Categories,"Categories", "Name"))">
+        <select asp-for="CategoryId" class="form-select" asp-items="@(new SelectList(ViewBag.Categories,"CategoryId", "Name"))">
             <option value=""></option>
         </select>
     </div>
 
     <div class="mb-3">
-        <label asp-for="DueDate" class="form-label">Due Date:</label>
+        <label asp-for="DueDate" class="form-label">Due Dates:</label>
         <input asp-for="DueDate" class="form-control" type="text" />
- </div>
+    </div>
 
- <div class="mb-3">
+    <div class="mb-3">
         <label asp-for="StatusId" class="form-label">Status:</label>
-        <select asp-for="StatusId" class="form-select" asp-items="@(new SelectList(ViewBag.Statuses,"StatusId", "Name"))">
- </select>
- </div>
- <button type="submit" class="btn btn-primary">Add</button>
- <a asp-action="Index" class="btn btn-primary">Cancel</a>
+        <select label asp-for="StatusId" class="form-select" asp-items="@(new SelectList(ViewBag.Statuses, "StatusId", "Name"))">
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+    <a asp-action="Index" class="btn btn-primary">Cancel</a>
+
 </form>
