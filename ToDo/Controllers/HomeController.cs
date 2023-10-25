@@ -15,7 +15,7 @@ namespace ToDoApp.Controllers
 
         public IActionResult Index(string id)
         {
-            Filters filters = new Filters(id);
+            var filters = new Filters(id);
             ViewBag.Filters = filters;
 
             ViewBag.Cartegories = context.Categories.ToList();
