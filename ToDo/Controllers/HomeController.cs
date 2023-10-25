@@ -18,7 +18,7 @@ namespace ToDoApp.Controllers
             var filters = new Filters(id);
             ViewBag.Filters = filters;
 
-            ViewBag.Cartegories = context.Categories.ToList();
+            ViewBag.Categories = context.Categories.ToList();
             ViewBag.Statuses = context.Statuses.ToList();
             ViewBag.DueFilters = Filters.DueFilterValues;
 
@@ -64,7 +64,7 @@ namespace ToDoApp.Controllers
             ViewBag.Categories = context.Categories.ToList();
             ViewBag.Statuses = context.Statuses.ToList();
             var task = new ToDo { StatusId = "open" };
-            return ViewBag(task);
+            return View(task);
 
         }
 

@@ -4,11 +4,11 @@
     <div class="col-md-2">
         <form asp-action="Filter" method="post">
             <div class="mb-3">
-                @* <label class="form-label">Category:</label>
+                <label class="form-label">Category:</label>
                 <select name="filter" class="form-select"
                         asp-items="@(new SelectList(ViewBag.Categories, "CategoryId", "Name", ViewBag.Filters.CategoryId))">
                 <option value="all">All</option>
-            </select> *@
+            </select> 
              
             </div>
             <div cllas="mb-3">
